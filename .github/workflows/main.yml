@@ -21,5 +21,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello world
-        run: echo "Hello World"
+        run: echo "welcome"
         shell: bash
