@@ -20,6 +20,6 @@ jobs:
   secodjob:
     runs-on: ubuntu-latest
     steps:
-      - name: hello world
+      - name: welcome
         run: echo "welcome"
         shell: bash
