@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: hello world
-        run: echo "Hello World"
+      - name: test
+        run: echo "test"
         shell: bash
         
   secodjob:
     runs-on: ubuntu-latest
     steps:
       - name: welcome
-        run: echo "welcome"
+        run: echo "testing"
         shell: bash
